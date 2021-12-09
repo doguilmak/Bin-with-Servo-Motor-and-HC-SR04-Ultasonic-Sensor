@@ -35,7 +35,7 @@ Pin numbers and libraries are specified:
 	#define echo 5
 	#define trig 6
 
-		void setup() {
+	void setup() {
 	
 	  pinMode(trig, OUTPUT);
 	  pinMode(echo, INPUT);
