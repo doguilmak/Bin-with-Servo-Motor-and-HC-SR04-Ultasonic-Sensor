@@ -67,7 +67,6 @@ If the object brought closer to the ultrasonic sensor is closer than 10 centimet
 <p align="center">
     <img src="bin_servo.gif"> 
 </p>
-![vid_](bin_servo.gif)
 
 ## Contact Me
 
