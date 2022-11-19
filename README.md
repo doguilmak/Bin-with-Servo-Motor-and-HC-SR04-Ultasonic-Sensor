@@ -5,7 +5,7 @@
 <small>Picture Source:<a  href="https://www.cuidevices.com/products/image/getimage/93236?typecode=m"> cuidevices</a>
 
 
-<br>  
+<br>
 
 <h2>Statement</h2>
 
@@ -55,7 +55,7 @@ Pin numbers and libraries are specified:</p>
 	  
 	}
 
-<p>Within a quarter of a second, the ultrasonic sensor scanned whether there was any object close to the sensor. This sensor reads from 2cm to 400cm (0.8inch to 157inch) with an accuracy of 0.3cm (0.1inches), which is good for most hobbyist projects. The distance (in cm) was calculated according to the sound velocity and the distance was calculated over the time variable.</p>
+<p>Within a quarter of a second, the ultrasonic sensor scanned whether there was any object close to the sensor. This sensor reads from <i>2cm to 400cm (0.8inch to 157inch)</i> with an accuracy of <i>0.3cm (0.1inches)</i>, which is good for most hobbyist projects. The distance (in cm) was calculated according to the sound velocity and the distance was calculated over the time variable.</p>
 
     digitalWrite(trig, LOW);
 	delayMicroseconds(2);
@@ -67,7 +67,7 @@ Pin numbers and libraries are specified:</p>
 	float cm = time/58.2;
 	delay(250);
 
-<p>If the object brought closer to the ultrasonic sensor is closer than 10 centimeters, the motor will move at an angle of 90 degrees. Then it will wait for 5 seconds and the servo motor will return to its original state.</p>
+<p>If the object brought closer to the ultrasonic sensor is closer than 10 centimeters, the motor will move at an angle of <i>90 degrees</i>. Then it will wait for <i>5</i> seconds and the servo motor will return to its original state.</p>
 
       if (cm < 10){
         motor.write(90);
