@@ -67,7 +67,7 @@ Pin numbers and libraries are specified:</p>
 	float cm = time/58.2;
 	delay(250);
 
-<p>If the object brought closer to the ultrasonic sensor is closer than 10 centimeters, the motor will move at an angle of <i>90 degrees</i>. Then it will wait for <i>5</i> seconds and the servo motor will return to its original state.</p>
+	<p>If the object brought closer to the ultrasonic sensor is closer than <i>10 centimeters</i>, the motor will move at an angle of <i>90 degrees</i>. Then it will wait for <i>5</i> seconds and the servo motor will return to its original state.</p>
 
       if (cm < 10){
         motor.write(90);
